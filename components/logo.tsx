@@ -11,7 +11,6 @@ export function Logo() {
           alt="shadcn examples logo"
         />
       </div>
-      <span className="hidden font-medium md:inline">Daryl Anjelo Ocrisma BSCpE</span>
     </div>
   );
 }
