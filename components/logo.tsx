@@ -6,9 +6,10 @@ export function Logo() {
       <div className="relative size-6">
         <Image
           className="dark:invert"
-          src={`${process.env.BASE_URL}/logo.png`}
+          src="/logo.png" // Use public folder path
           fill
           alt="shadcn examples logo"
+          priority
         />
       </div>
       <span className="hidden font-medium md:inline">Daryl Anjelo Ocrisma</span>
